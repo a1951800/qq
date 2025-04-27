@@ -1,131 +1,130 @@
 body {
-    font-family: 'Quicksand', sans-serif;
-    margin: 0;
-    background: papayawhip url('dots-1.png') repeat;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  background: papayawhip url('dots-1.png') repeat;
 }
 
 .background {
-    width: 900px;
-    margin: 0 auto;
-    background-color: white;
+  width: 900px;
+  margin: 0 auto;
+  background-color: white;
 }
 
 header {
-    background-color: darkgrey;
-    padding: 20px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: darkgrey;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo-text {
-    font-family: 'Pacifico', cursive;
-    font-size: 24px;
-    color: darkorange;
+  font-family: 'Pacifico', cursive;
+  font-size: 24px;
+  color: darkorange;
 }
 
 header a {
-    color: lightgrey;
-    text-decoration: underline;
-    font-style: italic;
-    margin-left: 20px;
+  color: lightgrey;
+  text-decoration: underline;
+  font-style: italic;
+  margin-left: 20px;
 }
 
 nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 nav li {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
 }
 
 nav a:hover {
-    color: darkorange;
+  color: darkorange;
 }
 
 main {
-    display: flex;
-    padding: 20px;
+  display: flex;
+  padding: 20px;
 }
 
 .main-content {
-    width: 65%;
-    padding-right: 20px;
+  width: 65%;
+  padding-right: 20px;
 }
 
 .sidebar {
-    width: 35%;
-    padding: 20px;
-    background: #f8f8f8;
-    border-left: 2px solid lightgrey;
-    box-sizing: border-box;
+  width: 35%;
+  padding: 20px;
+  background: #f8f8f8;
+  border-left: 2px solid lightgrey;
+  box-sizing: border-box;
 }
 
 .start-button {
-    background-color: darkorange;
-    border: none;
-    padding: 10px 20px;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    margin-bottom: 20px;
-    width: 100%;
+  background-color: darkorange;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 .results {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
 }
 
 .results th {
-    background-color: darkslategrey;
-    color: white;
-    padding: 10px;
+  background-color: darkslategrey;
+  color: white;
+  padding: 10px;
 }
 
 .results td {
-    padding: 10px;
-    border-bottom: 1px solid lightgrey;
+  padding: 10px;
+  border-bottom: 1px solid lightgrey;
 }
 
 .excited {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .excited h2 {
-    color: darkorange;
-    font-family: 'Raleway', sans-serif;
+  color: darkorange;
+  font-family: 'Raleway', sans-serif;
 }
 
 .excited img {
-    width: 200px;
-    margin-top: 10px;
+  width: 200px;
+  margin-top: 10px;
 }
 
 footer {
-    background-color: darkgrey;
-    color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: darkgrey;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-text {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .icons i {
-    margin-left: 10px;
+  margin-left: 10px;
 }
