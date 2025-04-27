@@ -8,6 +8,12 @@ h2 {
     text-align: left;
 }
 
+h3 {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 139, 0.8);
+}
+
 p {
     font-family: serif;
     color: black;
@@ -30,4 +36,9 @@ del {
 pre {
     font-family: monospace;
     font-size: 1em;
+    color: black;
+}
+
+.transparent-text {
+    color: rgba(0, 0, 0, 0.5);
 }
