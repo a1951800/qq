@@ -1,0 +1,33 @@
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: left;
+}
+
+p {
+    font-family: serif;
+    color: black;
+}
+
+a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+del {
+    color: grey;
+}
+
+.highlight {
+    color: darkblue;
+    background-color: pink;
+}
+
+pre {
+    font-family: monospace;
+    font-size: 1em;
+}
